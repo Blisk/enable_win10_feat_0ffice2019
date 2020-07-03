@@ -1,0 +1,17 @@
+Dism /online /Enable-Feature /FeatureName:IIS-WebServerRole /All
+Dism /online /Enable-Feature /FeatureName:IIS-WebServer /All
+Dism /online /Enable-Feature /FeatureName:IIS-CommonHttpFeatures /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpErrors /All
+Dism /online /Enable-Feature /FeatureName:IIS-ApplicationDevelopment /All
+Dism /online /Enable-Feature /FeatureName:IIS-HealthAndDiagnostics /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpLogging /All
+Dism /online /Enable-Feature /FeatureName:IIS-Security /All
+Dism /online /Enable-Feature /FeatureName:IIS-RequestFiltering /All
+Dism /online /Enable-Feature /FeatureName:IIS-Performance /All
+Dism /online /Enable-Feature /FeatureName:IIS-WebServerManagementTools /All
+Dism /online /Enable-Feature /FeatureName:IIS-StaticContent /All
+Dism /online /Enable-Feature /FeatureName:IIS-DefaultDocument /All
+Dism /online /Enable-Feature /FeatureName:IIS-DirectoryBrowsing /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpCompressionStatic /All
+Dism /online /Enable-Feature /FeatureName:IIS-ManagementConsole /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFx4Extended-ASPNET45 /All
