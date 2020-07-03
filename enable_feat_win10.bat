@@ -15,3 +15,10 @@ Dism /online /Enable-Feature /FeatureName:IIS-DirectoryBrowsing /All
 Dism /online /Enable-Feature /FeatureName:IIS-HttpCompressionStatic /All
 Dism /online /Enable-Feature /FeatureName:IIS-ManagementConsole /All
 Dism /online /Enable-Feature /FeatureName:IIS-NetFx4Extended-ASPNET45 /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFxExtensibility /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFxExtensibility45 /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFxExtensibility47 /All
+Dism /online /Enable-Feature /FeatureName:IIS-ASPNET /All
+Dism /online /Enable-Feature /FeatureName:IIS-ASPNET45 /All
+Dism /online /Enable-Feature /FeatureName:IIS-ASPNET47 /All
+Dism /online /Enable-Feature /FeatureName:NetFx4-AdvSrvs /All
